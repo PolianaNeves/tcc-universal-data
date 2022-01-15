@@ -34,7 +34,8 @@ Os nomes possuem números que indicam a ordem de execução de cada arquivo, ape
 * 1_treatments -> Neste script, é realizada a limpeza, tratativa e separação dos datasets
 * 2_intermediary_treatments -> Como será explicado nos scripts, por questões de estratégia, as reviews do dataset foram separadas em positivas e negativas. Este script trata então da predição de sentimentos (positivos ou negativos) das avaliações.
 * 3_dataset_union -> Para ser usado nas demais funcionalidades, o script gera um dataset com todas as reviews
-* 4_wordcloud_and_frequency -> O script gera um dataset com os termos e suas frequências, além de duas imagens, contendo a nuvem de palavras (positiva e negativa).
+* 4_wordcloud_and_frequency -> O script gera um dataset com os termos e suas frequências, além de duas imagens, contendo a nuvem de palavras (positiva e negativa). Estas informações são usadas no dashboard.
+* 5_time_series_analysis -> Criação de várias funções para análise de gráficos e obtenção de informações gerenciais. Este script também é usado na api, para geração dos gráficos no dashboard.
 
 * #### **Como executar os arquivos?**
 
